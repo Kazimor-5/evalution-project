@@ -42,7 +42,7 @@ const List = () => {
         return (
           <div key={id}>
             <h4>{input}</h4>
-            <button onClick={removeItem(id)}>supprimer</button>
+            <button onClick={() => removeItem(id)}>supprimer</button>
           </div>
         );
       })}
